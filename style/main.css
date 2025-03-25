@@ -3,6 +3,11 @@
     background-color: #0F2546;
 } */
 
+*{
+    margin:0;
+    padding:0;
+}
+
 body{
     background: rgb(3,0,47);
     background: -moz-linear-gradient(184deg, rgba(3,0,47,1) 0%, rgba(15,37,70,1) 58%, rgba(17,107,125,1) 100%);
@@ -11,7 +16,8 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#03002f",endColorstr="#116b7d",GradientType=1);
 
     color: #c5d8e6;
-    background-size: cover;
+
+    /* height: 100vh; */
 
     /* color:white; */
 
@@ -41,6 +47,77 @@ body{
 
 .navbar-toggler {
    background-color: #3a4d8e  !important;
+}
+
+
+.hero {
+    background-image: url('../media/others/mlbb_banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+
+    display: flex;
+
+}
+
+.text_gradient {
+    color: #2d2046; 
+    background-image: linear-gradient(45deg, #2d2046 17%, #bb3c11 64%, #06117a 88%); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+   
+}
+
+.hero_text h1{
+    font-size: 3rem;
+/** Text Gradient Example */ 
+    text-align: center;
+    font-weight: 700;
+}
+.hero_text p{
+    font-size: 2rem;
+}
+
+.btn_custom {
+    width: 100%;
+    background-color: #3a4d8e;
+    border:none;
+    color: thistle;
+    font-weight: bolder;
+}
+
+.ban_section  {
+    height: fit-content;
+    display: flex;
+}
+.ban_section .part_left{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ban_section .part_right{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(27 19 73) !important;
+    color: rgb(219 246 255 / 97%);
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 table tbody{
