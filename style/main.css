@@ -39,8 +39,8 @@ body{
 
 
 
-.navbar-toggler{
-   background-color: #3a4d8e;
+.navbar-toggler {
+   background-color: #3a4d8e  !important;
 }
 
 table tbody{
