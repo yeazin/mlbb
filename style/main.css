@@ -9,4 +9,42 @@ body{
     background: -webkit-linear-gradient(184deg, rgba(3,0,47,1) 0%, rgba(15,37,70,1) 58%, rgba(17,107,125,1) 100%);
     background: linear-gradient(184deg, rgba(3,0,47,1) 0%, rgba(15,37,70,1) 58%, rgba(17,107,125,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#03002f",endColorstr="#116b7d",GradientType=1);
+
+    color: #c5d8e6;
+    background-size: cover;
+
+    /* color:white; */
+
+}
+
+.custom_nav {
+    background-color: rgb(26, 22, 49) !important;
+    
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(219 246 255 / 97%);
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(219 246 255 / 97%);
+}
+
+table tbody{
+
+    align-items: center;
+}
+table tbody tr td img {
+
+    vertical-align: middle;
+    border-radius: 50%;
+    /* float: left; */
+    width: 80px;
+    height: 80px;
+}
+
+table tbody,thead{
+    color:#8eabff;
+}
+table tbody:hover{
+    color:#8eabff;
 }
