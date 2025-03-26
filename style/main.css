@@ -118,6 +118,15 @@ footer{
     justify-content: center;
     align-items: center;
     font-size: x-small;
+
+}
+footer p {
+
+    margin: 0 auto;
+}
+
+.table{
+    vertical-align: middle;
 }
 
 table tbody{
@@ -129,8 +138,8 @@ table tbody tr td img {
     vertical-align: middle;
     border-radius: 50%;
     /* float: left; */
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 }
 
 table tbody,thead{
