@@ -52,14 +52,9 @@ body{
 
 .hero {
     background-image: url('../media/others/new_mlbb.png');
-    background-repeat: no-repeat;
-    /* background-position: center; */
+    background-position:center;
     background-size:cover;
-    height: 80%;
-    align-items: center;
-    justify-content: center;
-
-    display: flex;
+    background-repeat:no-repeat
 
 }
 
