@@ -63,14 +63,15 @@ body{
 
 }
 
-.text_gradient {
-    color: #2d2046; 
-    background-image: linear-gradient(45deg, #2d2046 17%, #bb3c11 64%, #06117a 88%); 
+/** Text Gradient Example */ 
+.text-gradient {
+    color: #80fc24; 
+    background-image: linear-gradient(45deg, #80fc24 25%, #88c3c0 52%, #ff7b00 64%); 
     background-clip: text; 
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
-   
-}
+   }
+
 
 .hero_text h1{
     font-size: 3rem;
