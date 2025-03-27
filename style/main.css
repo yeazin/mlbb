@@ -243,3 +243,28 @@ table tbody:hover{
     background-color: #6f42c1;
     }
     
+
+/*  Sponsor CSS */
+
+.team_image {
+    width : 50%;
+    border-radius: 50%;
+
+}
+
+.custom_card {
+    background:transparent;
+        border-width: 2px;
+        border-style:solid;
+        border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+    text-align: center;
+    justify-content: center;
+
+}
+.custom_card:hover{
+    background:transparent;
+        border-width: 2px;
+        border-style:solid;
+        border-image: linear-gradient(to left, darkblue, darkorchid) 1;
+
+}
