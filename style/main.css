@@ -125,8 +125,13 @@ footer p {
     margin: 0 auto;
 }
 
-.table{
+.table_custom{
     vertical-align: middle;
+    table-layout: fixed;
+    width: 100%;
+    overflow: auto;
+    display:inline-block;
+  
 }
 
 table tbody{
