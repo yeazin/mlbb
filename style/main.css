@@ -282,3 +282,14 @@ table tbody:hover{
     white-space: nowrap;
     width :100%
 }
+
+
+/* 5v5 CSS */
+
+.captain {
+    background: rgb(33,34,34);
+    background: -moz-linear-gradient(45deg, rgba(33,34,34,1) 6%, rgba(40,141,143,1) 55%, rgba(164,114,5,1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(33,34,34,1) 6%, rgba(40,141,143,1) 55%, rgba(164,114,5,1) 100%);
+    background: linear-gradient(45deg, rgba(33,34,34,1) 6%, rgba(40,141,143,1) 55%, rgba(164,114,5,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#212222",endColorstr="#a47205",GradientType=1);
+}
