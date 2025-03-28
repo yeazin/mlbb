@@ -273,3 +273,12 @@ table tbody:hover{
         border-image: linear-gradient(to left, darkblue, darkorchid) 1;
 
 }
+
+
+/* RULES CC */
+
+.pre {
+    overflow-x:scroll;
+    white-space: nowrap;
+    width :100%
+}

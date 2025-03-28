@@ -5,6 +5,7 @@
   <!-- <link rel="stylesheet" href="style/main.css"> -->
 
   <head>
+    <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -41,28 +42,87 @@
   
 
 
+    
+
 
 
     <body >
 
         <div class="container">
-            <h1>hello</h1>
-        </div>
+            
+          <br>
+          <br>
+          <h2 class="text-gradient" style="text-align: center;">Tournament Survival Bracket</h2>
+
+          <div class="pre">
         
+        <pre style="
+              color: #80fc24; 
+              background: linear-gradient(45deg, #80fc24 25%, #88c3c0 52%, #ff7b00 64%); 
+              background: -webkit-linear-gradient(45deg, #80fc24 25%, #88c3c0 52%, #ff7b00 64%); 
+              background: -moz-linear-gradient(45deg, #80fc24 25%, #88c3c0 52%, #ff7b00 64%); 
+              background-clip: text; 
+              -webkit-background-clip: text; 
+              -webkit-text-fill-color: transparent;
+              overflow-x: scroll;"
+               >
 
-          টুর্নামেন্টে মোট ২০ জন খেলোয়াড় অংশগ্রহণ করছেন। আপনাদের প্রত্যেকে অনুগ্রহ করে যেকোনো পাঁচটি হিরো ব্যান করুন।
+          <b>Round 1 (Winners' Bracket)    </b>
 
-          আমরা প্রাপ্ত তালিকা পর্যালোচনা করে সর্বাধিক ব্যান হওয়া পাঁচটি হিরোকে (Global Ban) চূড়ান্তভাবে নির্বাচন করব।
+          ┌───────────────┐  
+          │ Team A        │  
+          │ vs            │  → Winner (A/B) → Winners' Final  
+          │ Team B        │  
+          └───────────────┘  
+          ┌───────────────┐  
+          │ Team C        │  
+          │ vs            │  → Winner (C/D) → Winners' Final  
+          │ Team D        │  
+          └───────────────┘  
           
-          অতএব, আপনার ব্যান তালিকা প্রদান করে আমাদেরকে সহায়তা করুন।
+
+
+          <b>Round 2 (Losers' Bracket) </b>  
+
+          ┌───────────────┐  
+          │ Loser (A/B)   │  
+          │ vs            │  → Winner → Losers' Final  
+          │ Loser (C/D)   │  
+          └───────────────┘  
           
-          আপনার সহযোগিতার জন্য ধন্যবাদ।
+          ❌ <u>Loser Eliminated </u>
 
-          ডাউনলোডের নির্দেশাবলী
+
+          
+          <b>Winners' Bracket Final </b>  
+
+          ┌───────────────┐  
+          │ Winner (A/B)  │  
+          │ vs            │  → Winner → Grand Final  
+          │ Winner (C/D)  │  
+          └───────────────┘  
           
 
-        
+          <b>Losers' Bracket Final </b> 
 
+          ┌──────────────────────────┐  
+          │ Loser (Winners' Final)   │  
+          │ vs                       │  → Winner → Grand Final  
+          │ Winner (Losers' Round 2) │  
+          └──────────────────────────┘  
+
+          
+          <b>Grand Final </b>🏆  
+
+          ┌─────────────────────────────┐  
+          │ Winner (Winners' Bracket)   │  
+          │ vs                          │  → If WB Winner wins = Champion 🏆  
+          │ Winner (Losers' Bracket)    │  → If LB Winner wins = Rematch  
+          └─────────────────────────────┘  
+       
+        </pre>
+      </div>
+    </div>
 
     </body>
 
