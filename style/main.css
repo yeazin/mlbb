@@ -127,6 +127,14 @@ footer p {
     margin: 0 auto;
 }
 
+footer a {
+    font-weight: bolder; color: white;text-decoration: none;
+}
+footer a:hover {
+    color: #80fc24;
+    text-decoration: none;
+}
+
 .table_custom{
     vertical-align: middle;
     table-layout: fixed;
