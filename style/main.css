@@ -303,13 +303,13 @@ span {
 
 /* Update page */
 
-.update_5vs5,.update_1vs1, .update_others {
+.update_ {
     display: block;
     padding: 10px;
     background: #2f4061;
     border-radius: 3px;
 }
-.update_5vs5 span{
+.update_ .v5{
     display: inline;
     background-color: #e31300;
     padding: 5px;
@@ -319,7 +319,7 @@ span {
     margin-right: 10px;
 }
 
-.update_1vs1 span{
+.update_ .v1{
     display: inline;
     background-color: #fffa1f;
     padding: 5px;
@@ -329,7 +329,7 @@ span {
     margin-right: 10px;
 }
 
-.update_others span {
+.update_ .tag {
     display: inline;
     background-color: #000000;
     padding: 5px;
