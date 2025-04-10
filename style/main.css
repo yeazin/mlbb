@@ -314,8 +314,15 @@ span {
 .update_ {
     display: block;
     padding: 10px;
-    background: #2f4061;
+    /* background: #2f4061; */
+    color: rgb(239 239 239 / 95%);
+    font-weight: bolder;
     border-radius: 3px;
+    background: rgb(16,84,209);
+    background: -moz-linear-gradient(45deg, rgba(16,84,209,1) 4%, rgba(38,158,161,1) 54%, rgba(47,64,97,1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(16,84,209,1) 4%, rgba(38,158,161,1) 54%, rgba(47,64,97,1) 100%);
+    background: linear-gradient(45deg, rgba(16,84,209,1) 4%, rgba(38,158,161,1) 54%, rgba(47,64,97,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1054d1",endColorstr="#2f4061",GradientType=1);
 }
 .update_ .v5{
     display: inline;
