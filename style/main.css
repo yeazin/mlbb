@@ -8,6 +8,29 @@
     padding:0;
 }
 
+
+
+.float_flag {
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid #2293a8;
+    position: absolute;
+    right: 50px;
+    top: 40%;
+    z-index: 99999999;
+}
+
+@media screen and (max-width:600px){
+    .float_flag {
+        width: 70px;
+        border-radius: 50%;
+        border: 1px solid #2293a8;
+        position: absolute;
+        right: 20px;
+        top:85%;
+        z-index: 99999999;
+    }
+}
 body{
     background: rgb(3,0,47);
     background: -moz-linear-gradient(184deg, rgba(3,0,47,1) 0%, rgba(15,37,70,1) 58%, rgba(17,107,125,1) 100%);
@@ -366,9 +389,6 @@ span {
 
     background: #833AB4;
 background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%); 
-/* 
-background: #59c8de;
-background: linear-gradient(90deg, rgba(89, 200, 222, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%); */
 }
 
 
