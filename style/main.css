@@ -354,4 +354,21 @@ span {
     margin-right: 10px;
 }
 
+.update_ .tag_special{
+    font-style: italic;
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fdf81e;
+    font-weight: bolder;
+    margin-right: 10px;
+
+
+    background: #833AB4;
+background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%); 
+/* 
+background: #59c8de;
+background: linear-gradient(90deg, rgba(89, 200, 222, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%); */
+}
+
 
