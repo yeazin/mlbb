@@ -171,7 +171,7 @@ table tbody{
 
     align-items: center;
 }
-table tbody tr td img {
+.ban_hero_table tbody tr td img {
 
     vertical-align: middle;
     border-radius: 50%;
@@ -388,7 +388,20 @@ span {
 
 
     background: #833AB4;
-background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%); 
+background: linear-gradient(246deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%); 
 }
 
+
+.update_ .tag_final {
+
+    font-style: italic;
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    color: #16ff8b;
+    font-weight: bolder;
+    margin-right: 10px;
+    background: #2f1919;
+    background: linear-gradient(317deg, rgb(0 0 0) 0%, rgb(24 103 149) 50%, rgb(255 149 0) 100%);
+}
 
